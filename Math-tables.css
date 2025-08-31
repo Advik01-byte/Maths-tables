@@ -1,0 +1,22 @@
+.css-generate-button,
+.css-input {
+  padding: 10px 15px;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.css-generate-button {
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.css-div {
+  margin-top: 10px;
+  /* Set the font type to Arial */
+  font-family: Arial;
+  /* Set the font size to 15px */
+  font-size: 15px;
+  font-weight: bold;
+}

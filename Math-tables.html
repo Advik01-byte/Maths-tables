@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Multiplication Tables
+    </title>
+    <!-- Import the CSS file -->
+    <link rel="stylesheet" href="styles/Math-tables.css">
+  </head>
+  <body>
+    <h1>
+      Multiplication Tables
+    </h1>
+    <input placeholder="Multiplication Table" onkeydown="
+      if (event.key === 'Enter') {
+        generateTable();
+      };
+    " class="js-input css-input" title="Write the multiplication table you want to generate">
+    <button onclick="
+      generateTable();
+    " class="js-generate-button css-generate-button" title="Press this button to generate the multiplication table written in the textbox">
+      Generate
+    </button>
+    <div class="js-div1 css-div"></div>
+    <div class="js-div2 css-div"></div>
+    <div class="js-div3 css-div"></div>
+    <div class="js-div4 css-div"></div>
+    <div class="js-div5 css-div"></div>
+    <div class="js-div6 css-div"></div>
+    <div class="js-div7 css-div"></div>
+    <div class="js-div8 css-div"></div>
+    <div class="js-div9 css-div"></div>
+    <div class="js-div10 css-div"></div>
+    <!-- Import the JavaScript file -->
+    <script src="scripts/Math-tables.js"></script>
+  </body>
+</html>
